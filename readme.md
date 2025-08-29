@@ -7,10 +7,7 @@ This project aims to predict the daily high price of Ethereum (ETH) using machin
 The model uses a combination of the following data:
 - **Ethereum and Bitcoin prices:** high, low, and close prices
 - **Fear and Greed Index:** to capture market sentiment
-- **Exchange metrics:** ETH inflow, ETH outflow, net flow
-- **Whale activity:** whale transfer count, whale net flow
-- **Network activity:** number of active addresses, number of new addresses
-- **News sentiment (optional):** sentiment score derived from crypto news articles
+
 
 ## Methodology
 1. Prepare historical data and create lagged features to incorporate the previous day's market activity.
