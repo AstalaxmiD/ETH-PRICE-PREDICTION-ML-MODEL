@@ -18,7 +18,13 @@ The model uses a combination of the following data:
 ## Objective
 The goal is not only to predict ETH highs but also to understand **which factors have the largest impact** on its price. This insight can help traders and analysts make more informed decisions.
 
+## Output:
+Metrics in order of importance:
+['eth_high_lag1', 'eth_high_lag2', 'eth_high_lag3', 'btc_close_lag3', 'btc_high_lag3', 'btc_low_lag3', 'btc_low_lag1', 'btc_high_lag1', 'btc_low_lag2', 'btc_close_lag1', 'btc_close_lag2', 'fear_greed_index', 'btc_high_lag2']
 
+Predicted ETH high: [4417.4812 4405.4712 4392.505  4591.651  3775.3902 4556.5458]
+Mean Squared Error: 32321.99843175987
+R2 Score: 0.813199806850879
 
 ## Possible biases:
 - Feature Bias: Using only a few features (ETH/BTC highs, lows, closes, Fear & Greed index) ignores other important market influences: News events, Macroeconomic data and Exchange-specific activity.
